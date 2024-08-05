@@ -79,6 +79,8 @@ HDFCDatabase j=new HDFCDatabase();
 		
 		System.out.println("=========user defined List=============");
 		
+		System.out.println("This is List");
+		
 		for(int i=0; i<li.size(); i++) {
 			HDFCDatabase hdfcDatabase = li.get(i);
 			
@@ -97,6 +99,8 @@ HDFCDatabase j=new HDFCDatabase();
 		si.add(l);
 		
 		System.out.println("=============user defined set==================");
+		
+		System.out.println("This is set");
 		
 		//user defined Set Iteration
 		
@@ -122,6 +126,8 @@ HDFCDatabase j=new HDFCDatabase();
 		//pair- Entry<key, value>
 		
 		System.out.println("==============user defined Map============");
+		
+		System.out.println("This is map");
 		
 		Set<Entry<Integer, HDFCDatabase>> entrySet = m.entrySet();
 		for(Entry<Integer,HDFCDatabase> e:entrySet) {
